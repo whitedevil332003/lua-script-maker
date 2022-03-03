@@ -3,39 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=0.45">
-<title>🅵🅵 & 🅼🅰🅽🆈 🅶🅰🅼🅴 🅻🆄🅰 🆂🅲🆁🅸🅿🆃🆂 🅵🆁🅴🅴</title>
+<title>
+🅵🅵 & 🅼🅰🅽🆈 🅶🅰🅼🅴 🅻🆄🅰 🆂🅲🆁🅸🅿🆃🆂 🅵🆁🅴🅴
+</title>
 <link rel="icon" href="https://lh3.googleusercontent.com/pw/AM-JKLWGpgW04xVsyilEoAkrRZGtaDVavTQM7kfPXIgQECrn3IYCdumpQ2s2Ouo6SikYHIsJ9bydHqbgTPFPt0_eVlQ9gkC1ivL4vx1gd_zCEeLBOk97B246GZv5K6YZeOmU_lXrCOQiJnqqslbHoHSCGFUd=s800-no" type="img/gif">
 <style>
+:root {
+    --clr-neon: rgb(40,255,0) ; 
+    --clr-bg: rgb(74,251,48)
+}
+
+.neons {
+    font-size: 11px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 3px solid;
+    background-color: transparent;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.125em rgba(223,12,243,0.847), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+    transition: all 0.5s
+}
+
+.neons:hover {
+    background-color: var(--clr-neon);
+    color: rgb(214,8,48)
+}
+
 body{background-color:black}
 button[id="↻"] {float : right;} 
 h1 { color : #ADDFDE;}
 h2 { color : #ADDFDE;}
 h4,h3{ color: green;}
 li { color :white;}
-p  { color :green; 
-     text-decoration: curve;}
-button {    color :white;
-              background-color: #FC5185;
-              height : 30px;
-              width  : 200px;}
-input[id="btn"] { color : white;
-              background-color: #FC5185;
-              height : 30px;
-              width  : 200px;}
-input[id="encc"] { color :white;
-              background-color: #FC5185;
-              height : 30px;
-              width  : 200px;
-    }
-p[id=shoo]  { color :green;
+
+input[id="btn"] { color : #e7f750;
+                  background-color: red;
+                  height : 30px;
+                  width  : 200px;
+                  border-radius: 25px;
+                  border: 2px solid #73AD21;}
+input[id="enc"] { color :white;
+                   background-color: #FC5185;
+                   height : 30px;
+                   width  : 200px;}
+output  {style="white-space:pre"}
+p[id=shoo]  {   color : rgba(30,56,239,0.942) ;
                 display: none;
                 border-radius: 25px;
                 border: 2px solid #73AD21;
-                padding: 25px; 
-                width: 580px;
-                height: 250px;  
-                background-color: white;}
-p[id=OFFSET]{ color :green;
+                padding: 2px; 
+                width: auto;
+                height: auto;  
+                background-color: #68f662;}
+p[id=OFFSET]{   color :green;
                 display: none;
                 border-radius: 25px;
                 border: 2px solid #73AD21;
@@ -43,35 +70,139 @@ p[id=OFFSET]{ color :green;
                 width: 580px;
                 height: 470px;  
                 background-color: white;}
+pre{            color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: auto;
+                height: auto;  
+                background-color: white;
+                font-size: 17px}
+pre[id="pre13"]{            
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 100%;
+                height: 1700px;  
+                background-color: white;
+                font-size: 17px}
+div[id="p1"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #b5a3fa;}
+div[id="p2"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #a396fa;}
+div[id="p3"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #f279f3;}
+div[id="p4"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #6ee4f9;}
+div[id="p5"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: rgb(255,167,167);}
+div[id="p6"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #f2f146;}
+div[id="p7"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #ff8f54;}
+div[id="p8"] { 
+                color :blue;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color:rgb(75,196,240);}
+div[id="p9"] { 
+                color :blue;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: #d135fa;}
+div[id="p10"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color:yellow;}
+div[id="V1"] { 
+                color :green;
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 50px; 
+                width: 580px;
+                height: auto;  
+                background-color: yellow;
+                }
+p { color:green;}
 a:link{color:red;
-         text-decoration: none;} 
+       text-decoration: none;} 
 a:visited{color:red;
-            text-decoration: none;}
-a:hover{color:red;
           text-decoration: none;}
+a:hover{color:red;
+        text-decoration: none;}
 a:active{color:red;
-           text-decoration: none; }
+         text-decoration: none; }
 * {box-sizing: border-box;}
 div {  padding: 10px;
        background-color: #f6f6f6;
        overflow: hidden;
        background-color: black;}
 input[type=text], textarea, select {
-        width: 1000%;
+        width: 100%;
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;}
-input { width: 1000%;
+input { width: 100%;
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        overflow: hidden;}
-input[type=button]{ 
-        color : white;
-        background-color: #FC5185;
-        height : 30px;
-        width  : 200px;
-        padding: 7px;}
+        overflow: hidden;
+        background-color: yellow;
+}
+select{background-color: yellow;}
 textarea[id="code editor"]{ 
         display: none;
         border-radius: 25px;
@@ -79,134 +210,289 @@ textarea[id="code editor"]{
         padding: 5px; 
         width: 580px;
         height: 470px;  
-        background-color: white;}
+        background-color: rgb(151,255,132);
+        color: rgb(255,7,7)}
 textarea{
-        border-radius: 25px;
-        border: 2px solid #73AD21;
-        padding: 5px; 
-        width: 580px;
-        height: 470px;  
-        background-color: white;}
-p[id=shoo]{ 
-        color :green;
-        display: none;
-        border-radius: 25px;
-        border: 2px solid #73AD21;
-        padding: 25px; 
-        width: 580px;
-        height: 250px;  
-        background-color: white;}
-p[id=OFFSET]{ 
-        color :green;
-        display: none;
-        border-radius: 25px;
-        border: 2px solid #73AD21;
-        padding: 50px; 
-        width: 580px;
-        height: 470px;  
-       background-color: white;}
-textarea [id="c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23;"]{
               border-radius: 25px;
               border: 2px solid #73AD21;
               padding: 5px; 
               width: 580px;
               height: 470px;  
-              background-color: white;}
-button[id="↻"] {float : right;} 
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C3"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C4"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C5"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C6"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C7"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C8"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C9"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C10"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C11"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C12"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C13"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C14"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C15"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C16"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C17"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C18"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C19"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C20"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C21"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C22"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
+textarea[id="C23"]{
+              border-radius: 25px;
+              border: 2px solid #73AD21;
+              padding: 5px; 
+              width: 580px;
+              height: 470px;  
+              background-color: rgb(249,244,17);
+              color: rgb(17,49,249)
+}
     </style>
 </head>
-<body>   
-<button id="↻" onClick="window.location.href=window.location.href">REFRESH PAGE</button>
+<body id="body">   
+<button class="neons" id="↻" onClick="window.location.href=window.location.href">REFRESH PAGE</button>
 <div>
-<button type="button" id="open"       onclick="document.getElementById('close').style.display='block',document.getElementById('open').style.display='none',document.getElementById('k').style.display='block',document.getElementById('e').style.display='none',getElementById('CB').style.display='none';">OPEN HOME</button>
-<button type="button" id="close"        onclick="document.getElementById('close').style.display='none',document.getElementById('open').style.display='block',document.getElementById('k').style.display='none';" style="display:none">CLOSE HOME</button>
+<button class="neons" type="button" id="ALSMO" onclick="
+document.getElementById('ALSMO').style.display='none',
+document.getElementById('ALSMC').style.display='block',
+document.getElementById('OCB').style.display='block',
+document.getElementById('CCB').style.display='none',
+document.getElementById('S').style.display='block',
+document.getElementById('s').style.display='none',
+document.getElementById('CB').style.display='none',
+document.getElementById('e').style.display='block',
+document.getElementById('set').style.display='none'
+;">OPEN AUTO SCRIPT WRITER</button>
+<button class="neons" type="button" id="ALSMC" onclick="
+document.getElementById('ALSMC').style.display='none',
+document.getElementById('ALSMO').style.display='block',
+document.getElementById('e').style.display='none';" style="display:none">CLOSE AUTO SCRIPT WRITER</button>
 </div>
 <div>
-<button type="button" id="ALSMO" onclick="document.getElementById('ALSMC').style.display='block',document.getElementById('ALSMO').style.display='none',document.getElementById('e').style.display='block',document.getElementById('k').style.display='none',getElementById('CB').style.display='none';">OPEN AUTO SCRIPT WRITER</button>
-<button type="button" id="ALSMC" onclick="document.getElementById('ALSMC').style.display='none',document.getElementById('ALSMO').style.display='block',document.getElementById('e').style.display='none';" style="display:none">CLOSE AUTO SCRIPT WRITER</button>
+<button class="neons" type="button" id="OCB"        onclick="
+document.getElementById('ALSMO').style.display='block',
+document.getElementById('ALSMC').style.display='none',
+document.getElementById('OCB').style.display='none',
+document.getElementById('CCB').style.display='block',
+document.getElementById('S').style.display='block',
+document.getElementById('s').style.display='none',
+document.getElementById('CB').style.display='block',
+document.getElementById('e').style.display='none',
+document.getElementById('set').style.display='none'
+;">OPEN QUERY BOX </button>
+<button class="neons" type="button" id="CCB"        onclick="
+document.getElementById('CCB').style.display='none',
+document.getElementById('OCB').style.display='block',
+document.getElementById('CB').style.display='none'
+;" style="display:none">CLOSE QUERY BOX</button>
 </div>
 <div>
-<button type="button" id="OCB"        onclick="document.getElementById('CCB').style.display='block',document.getElementById('OCB').style.display='none',getElementById('CB').style.display='block',document.getElementById('k').style.display='none',document.getElementById('e').style.display='none';">OPEN QUERY BOX </button>
-<button type="button" id="CCB"        onclick="document.getElementById('CCB').style.display='none',document.getElementById('OCB').style.display='block',getElementById('CB').style.display='none';" style="display:none">CLOSE QUERY BOX</button>
+  <button class="neons" type="button" id="S"        onclick="
+document.getElementById('ALSMO').style.display='block',
+document.getElementById('ALSMC').style.display='none',
+document.getElementById('OCB').style.display='block',
+document.getElementById('CCB').style.display='none',
+document.getElementById('S').style.display='none',
+document.getElementById('s').style.display='block',
+document.getElementById('CB').style.display='none',
+document.getElementById('e').style.display='none',
+document.getElementById('set').style.display='block';
+  ">TUTORIALS</button>
+  <button class="neons" type="button" id="s"        onclick="
+  document.getElementById('S').style.display='block',
+  document.getElementById('s').style.display='none',
+  document.getElementById('set').style.display='none';
+  " style="display:none">CLOSE TUTORIALS</button>
+</div>
 <div id="CB" style="display:none">
   <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box" style="color:white"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sv%2F0ni3sov1Mz45OQyr79%2F"+"&opts=16798&num=10&ts=1630843734934");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com --></div>
-<a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="00ed73e429215e0dfbee3b242064e779|9|page|1|rgb(15, 11, 11);|rgb(0, 231, 100);|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-<div>
-  <!--klu home-->
-<div id="k" style="display:none">
-<center><img src="https://lh3.googleusercontent.com/pw/ACtC-3dGpCHifPb0zTDmj3NWcIaG1qwhYMmPaNXmnTcLrZtfF-9Y0lkplfcjZT6DI4VCE2iCFtn4XT7GS5qlU6HIdBgBM5KK5RNtl2f8oOdT1MnIqdnFNPRh8AOl4qIwxriHj_UUULW-PvwAnsI-kWI_Btm7=s425-no" alt="no png file" height="70" width="70"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWGpgW04xVsyilEoAkrRZGtaDVavTQM7kfPXIgQECrn3IYCdumpQ2s2Ouo6SikYHIsJ9bydHqbgTPFPt0_eVlQ9gkC1ivL4vx1gd_zCEeLBOk97B246GZv5K6YZeOmU_lXrCOQiJnqqslbHoHSCGFUd=s800-no" alt="no png file" height="70" width="70"><h2>🎉TEAM K_L_U OFFICIAL SITE🎉</h2></center>
-    <!--information-->
-<p>click the button to join </p>
-<button type="button" onclick="window.location.href='https://youtube.com/channel/UCsyvgiNftStfBZfngLX1PWw';">YOUTUBE</button>
-<button type="button" onclick="window.location.href='https://t.me/joinchat/eraQzEXhGWQ2NjE1';">TELEGRAM</button>
-<p>note:</p>
-<ol>
-<li>use the youtube to learn how to use </li>
-<li>use telgram to ask the doubts</li>
-<li>USE this website to get the scripts</li>
-<li>plz do not rename or convert our scripts into txt you will face some issue if you use them in game</li>
-<li>use these on your fake accounts </li>
-</ol>
-<p>TO USE OUR SCRIPT </p>
-<ul>
-<li>we need 2 apps </li>
-<li>cilck on names of apps to download</li>
-<li><button type="button" onclick="window.location.href='https://www.mediafire.com/file/khyv2v205z145b7/%25E1%25B4%258F%25E1%25B4%2598_%25E1%25B4%258B%25CA%259F%25E1%25B4%259C-%25C9%25A2%25C9%25A2_%255B34.0%255D.apk/file';">GAME GUARDIAN</button></li>
-<li><button type="button" onclick="window.location.href='https://www.mediafire.com/file/35ig06gzucrzpad/%25E1%25B4%258F%25E1%25B4%2598_%25E1%25B4%258B%25CA%259F%25E1%25B4%259C-%25E1%25B4%25A0%25C9%25AA%25CA%2580%25E1%25B4%259B%25E1%25B4%259C%25E1%25B4%2580%25CA%259F_%255B2.31.01.0331%255D.apk/file';">VIRTUAL MONSTER</button></li>
-</ul>
-<h2><a href="https://play.google.com/store/apps/details?id=com.fingersoft.hillclimb"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWhieTwgjioZtD4ubS25U_jhVE3wOwYtpTKgq_czDnNOfaEcRDHU1_Bg0PJvwkspd9LYhwbG4UO1kmYju3-C0kcgYk4P7Sz0PIFIwhw1aQJPA_EphHezfkCvWEhPQ6VSzLbfV7C291krw8i5umIVEzz=s584-no" alt="none" height="30" width="30"></a>Hill climb racing</h2>
-  <!--information-->
-<p>IN game you must and should contain COINS between 1-50 only</p>
-<p> And DIAMONDS between 1-20 only </p>
-<p>THEN HACKS WILL RUN</p>
-<ul>
-<button type="button" onclick="window.location.href='https://www.mediafire.com/file/hvr2pzl7b7qtuhf/HILL_CLIMB_V1.lua/file';">VERSION 1</button>
-<li style="color:black">PASSWORD:-  K_L_U MODDING</li>
-<li>FEATURES</li>
-<li>🤑💰COIN HACK💰🤑</li>
-<li>💎💎 DIAMOND HACK💎💎</li>
-<li>NO MULTIPLE choice in hacks menu</li>
-</ul>
-<ul>
-<br>
-<button type="button" onclick="window.location.href='https://www.mediafire.com/file/961mxc3ae2yn261/HILL_CLIMB_V0.2.lua/file';">VERSION 2</button>
-<li style="color:black">password:- K_L_U MODDING</li>
-<li>🤑💰COIN HACK💰🤑</li>
-<li>💎💎DIAMOND HACK 💎💎</li>
-<li>🗝️🗝️<strong>CHEST HACK</strong>🗝️🗝️</li>
-</ul>
-<br>
-<ul>
-<button type="button" onclick="window.location.href='https://www.mediafire.com/file/r5x1cm8f7m4cp13/HILL_CLIMB_V3.lua/file';">VERSION 3</button>
-<li style="color:black">Password :- K_L_U MODDING</li>
-<li>🤑💰COIN HACK💰🤑</li>
-<li>💎💎DIAMOND HACK 💎💎</li>
-<li>🗝️🗝️<strong>CHEST HACK</strong>🗝️🗝️</li>
-<li>⛽⛽FUEL HACK⛽⛽</li>
-<li>THE SCRIPT WILL RUN VERY FAST</li>
-</ul>
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sv%2F0ni3sov1Mz45OQyr79%2F"+"&opts=16798&num=10&ts=1630843734934");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ 
+</script>
+<!-- end www.htmlcommentbox.com -->
 </div>
-<!--klu home-->
-<!--klu encrpted-->
-<div id="e" style="display:none">
-  <center><img src="https://lh3.googleusercontent.com/pw/ACtC-3dGpCHifPb0zTDmj3NWcIaG1qwhYMmPaNXmnTcLrZtfF-9Y0lkplfcjZT6DI4VCE2iCFtn4XT7GS5qlU6HIdBgBM5KK5RNtl2f8oOdT1MnIqdnFNPRh8AOl4qIwxriHj_UUULW-PvwAnsI-kWI_Btm7=s425-no" alt="no png file" height="70" width="70"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWGpgW04xVsyilEoAkrRZGtaDVavTQM7kfPXIgQECrn3IYCdumpQ2s2Ouo6SikYHIsJ9bydHqbgTPFPt0_eVlQ9gkC1ivL4vx1gd_zCEeLBOk97B246GZv5K6YZeOmU_lXrCOQiJnqqslbHoHSCGFUd=s800-no" alt="no png file" height="70" width="70"><h2>TEAM K_L_U OFFICIAL SITE</h2></center>
+<br>
+<!--klu script maker-->
+<div id="e">
+<center><img src="https://lh3.googleusercontent.com/pw/ACtC-3dGpCHifPb0zTDmj3NWcIaG1qwhYMmPaNXmnTcLrZtfF-9Y0lkplfcjZT6DI4VCE2iCFtn4XT7GS5qlU6HIdBgBM5KK5RNtl2f8oOdT1MnIqdnFNPRh8AOl4qIwxriHj_UUULW-PvwAnsI-kWI_Btm7=s425-no" alt="no png file" height="70" width="70"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWGpgW04xVsyilEoAkrRZGtaDVavTQM7kfPXIgQECrn3IYCdumpQ2s2Ouo6SikYHIsJ9bydHqbgTPFPt0_eVlQ9gkC1ivL4vx1gd_zCEeLBOk97B246GZv5K6YZeOmU_lXrCOQiJnqqslbHoHSCGFUd=s800-no" alt="no png file" height="70" width="70"><h2>TEAM K_L_U OFFICIAL SITE</h2>
+</center>
 <center><p>DONE BY:-- K_L_U MODDING</p></center>
 <center><p>DONE BY:-- K_L_U MODDING_2</p></center>
 <!--information-->
 <center><h1> YOUTUBE </h1></center>
-<button type="button" onclick="window.location.href='https://youtube.com/channel/UCsyvgiNftStfBZfngLX1PWw';">K_L_U MODDING</button>
-<button type="button" onclick="window.location.href='https://youtube.com/channel/UCasaB0JPB9tlRl-bJ_X8gug';">KLU2_ MODDING</button>
+<button  class="neons" type="button" onclick="window.location.href='https://youtube.com/channel/UCsyvgiNftStfBZfngLX1PWw';">K_L_U MODDING</button>
+<button class="neons"  type="button" onclick="window.location.href='https://youtube.com/channel/UCasaB0JPB9tlRl-bJ_X8gug';">KLU2_ MODDING</button>
 <center><h1>TELEGRAM </h1></center>
 <br>
-<button type="button" onclick="window.location.href='https://t.me/joinchat/eraQzEXhGWQ2NjE1';">K_L_U MODDING OFFICIAL</button>
+<button class="neons"  type="button" onclick="window.location.href='https://t.me/joinchat/eraQzEXhGWQ2NjE1';">K_L_U MODDING OFFICIAL</button>
 </br>
 <center> <h2>OFFICIAL WEBSITE</h2></center>
-<button type="button" onclick="window.location.href='http://www.klumodding.c1.biz/';">K_L_U MODDING OFFICIAL</button>
-<center><p>CODE WRITER</p></center>
+<button class="neons"  type="button" onclick="window.location.href='http://www.klumodding.c1.biz/';">K_L_U MODDING OFFICIAL</button>
+<center><p>SCRIPT WRITER</p></center>
 <div>
 <form oninput="RANGE.value=R.value,
                SEARCH.value=S.value,
@@ -216,7 +502,6 @@ button[id="↻"] {float : right;}
                data.value=D.value,
                EDIT.value=E.value,
                TOAST.value=T.value">
-<div>
 <div>
 <select name="R">
 <option selected value="">SELECT RANGE</option>
@@ -253,16 +538,27 @@ button[id="↻"] {float : right;}
 <div>
 <input type="text" name="T" placeholder="ENTER TOAST">
 </div>
+<br>
 <div>
 <center>
-<div>
-<button type="button" id="OTS"        onclick="document.getElementById('CTS').style.display='block',document.getElementById('OTS').style.display='none',document.getElementById('shoo').style.display='block',document.getElementById('s1').style.display='block';">OPEN THE SCRIPT</button>
-<button type="button" id="CTS"          onclick="document.getElementById('CTS').style.display='none',document.getElementById('OTS').style.display='block',document.getElementById('shoo').style.display='none',document.getElementById('s1').style.display='none';" style="display:none">CLOSE THE SCRIPT</button>
-</div>
+<button class="neons"  type="button" id="OTS"        onclick="
+document.getElementById('CTS').style.display='block',
+document.getElementById('OTS').style.display='none',
+document.getElementById('shoo').style.display='block',
+document.getElementById('s1').style.display='block',
+document.getElementById('sh1').style.display='block';">OPEN THE SCRIPT</button>
+<button  class="neons" type="button" id="CTS"          onclick="
+document.getElementById('CTS').style.display='none',
+document.getElementById('OTS').style.display='block',
+document.getElementById('shoo').style.display='none',
+document.getElementById('s1').style.display='none',
+document.getElementById('sh1').style.display='none'
+;" style="display:none">CLOSE THE SCRIPT</button>
 </center>
 </div>
 <center><h3 id="s1" style="display:none">SCRIPT WAS READY</h3></center>
-<center><p id="shoo" style="display:none">
+<center>
+<p id="shoo" style="display:none">
 gg.setRanges(<output name="RANGE"></output>)
 <br>
 gg.searchNumber("<output name="SEARCH"></output>", gg.TYPE_<output name="DATA"></output>, false, gg.SIGN_EQUAL, 0, -1)
@@ -277,17 +573,30 @@ gg.toast("<output name="TOAST">K_L_U 2 MODDING MADE YOUR SCRIPT</output>")
 <br>
 gg.clearResults()
 <br>
-</p></center>
+</p>
+</center>
+<input class="neons"  type="button" onclick="clickToCopyText('shoo')" value="COPY CODE "  id="sh1" style="display:none">
 </form>
 </div>
 <!---offsetcode writer below-->
-<center>
 <div>
-<button type="button" id="DO" onclick="document.getElementById('CO').style.display='block',document.getElementById('DO').style.display='none',getElementById('off').style.display='block',getElementById('h').style.display='block';">DISPLAY OFSET</button>
-<button type="button" id="CO" onclick="document.getElementById('CO').style.display='none',document.getElementById('DO').style.display='block',getElementById('off').style.display='none',getElementById('h').style.display='none';" style="display:none">CLOSE OFFSET </button></div>
+<center>
+<p>Still under construction (😔) ⬇️</p>
+<button class="neons"  type="button" id="DO" onclick="
+document.getElementById('CO').style.display='block',
+document.getElementById('DO').style.display='none',
+document.getElementById('off').style.display='block',
+document.getElementById('h').style.display='block';">DISPLAY OFSET</button>
+<button  class="neons" type="button" id="CO" onclick="
+document.getElementById('CO').style.display='none',
+document.getElementById('DO').style.display='block',
+document.getElementById('off').style.display='none',
+document.getElementById('h').style.display='none';" 
+style="display:none">CLOSE OFFSET </button>
  </center>
+ </div>
 <br>
-<h3 id="h" style="display:none">OFFSET CODE WRITER</h3>
+<h3 id="h" style="display:none">OFFSET  WRITER</h3>
 <div>
 <form oninput="range.value=r.value,
                search.value=s.value,
@@ -309,6 +618,7 @@ gg.clearResults()
 <option>gg.REGION_ANONYMOUS</option>
 <option>gg.REGION_C_DATA</option>
 </select>
+</div>
 <div>
 <input type="text" name="s" placeholder="ENTER SEARCH NUMBER">
 </div>
@@ -324,22 +634,11 @@ gg.clearResults()
 <option>XOR</option>
 </select>
 </div>
-<div>
-<input type="text" name="R" placeholder="ENTER RESULTS VALUE">
-</div>
-<div>
-<input type="text" name="e" placeholder="ENTER EDIT VALUE">
-</div>
-</div>
-<div>
-<input type="text" name="T" placeholder="ENTER TOAST ">
-</div>
-<div>
-<input type="text" name="o" placeholder="ENTER OFFSET VALUE">
-</div>
-<div>
-<input type="text" name="v" placeholder="ENTER FINAL VALUE">
-</div>
+<div><input type="text" name="R" placeholder="ENTER RESULTS VALUE"></div>
+<div><input type="text" name="e" placeholder="ENTER EDIT VALUE"></div>
+<div><input type="text" name="T" placeholder="ENTER TOAST "></div>
+<div><input type="text" name="o" placeholder="ENTER OFFSET VALUE"></div>
+<div><input type="text" name="v" placeholder="ENTER FINAL VALUE"></div>
 <div>
 <select name="f">
 <option selected value="">DO YOU WANT TO FREEZE</option>
@@ -349,13 +648,22 @@ gg.clearResults()
 </div>
 <div>
 <center>
-<div>
-<button type="button" id="OTS2"        onclick="document.getElementById('CTS2').style.display='block',document.getElementById('OTS2').style.display='none',getElementById('OFFSET').style.display='block',getElementById('H').style.display='block';">OPEN THE SCRIPT</button>
-<button type="button" id="CTS2"        onclick="document.getElementById('CTS2').style.display='none',document.getElementById('OTS2').style.display='block',getElementById('OFFSET').style.display='none',getElementById('H').style.display='none';" style="display:none">CLOSE THE SCRIPT</button>
-</div>
+<button class="neons"  type="button" id="OTS2"        onclick="
+document.getElementById('CTS2').style.display='block',
+document.getElementById('OTS2').style.display='none',
+document.getElementById('OFFSET').style.display='block',
+document.getElementById('H').style.display='block',
+document.getElementById('off1').style.display='block';">OPEN THE SCRIPT</button>
+<button class="neons"  type="button" id="CTS2"        onclick="
+document.getElementById('CTS2').style.display='none',
+document.getElementById('OTS2').style.display='block',
+document.getElementById('OFFSET').style.display='none',
+document.getElementById('H').style.display='none',
+document.getElementById('off1').style.display='none'
+;" style="display:none">CLOSE THE SCRIPT</button>
 </center>
 </div>
-<center> <h3 id="H" style="display:none">YOUR OFFSET CODE</h3></center>
+<center> <h3 id="H" style="display:none">YOUR OFFSET </h3></center>
 <center>
 <p id="OFFSET" style="display:none">
 <br>
@@ -395,151 +703,403 @@ end
 end
 </p>
 </center>
+<input class="neons"  type="button" onclick="clickToCopyText('OFFSET')" value="COPY CODE" id="off1" style="display:none">
 </form>
 </div>
-<br>
-<center>   
 <div>
-<button type="button" id="OCE"        onclick="document.getElementById('CCE').style.display='block',document.getElementById('OCE').style.display='none',getElementById('code editor').style.display='block',getElementById('btn').style.display='block',getElementById('bt').style.display='block';">OPEN CODE EDITOR</button>
-<button type="button" id="CCE"        onclick="document.getElementById('CCE').style.display='none',document.getElementById('OCE').style.display='block', getElementById('code editor').style.display='none',getElementById('btn').style.display='none',getElementById('bt').style.display='none';" style="display:none">CLOSE CODE EDITOR</button>
-</div>
+<center>
+  <p>SAVE THE COPIED CODE AND EDIT IT BY USING THIS ⬇️</p>
+<button  class="neons" type="button" id="OCE"        onclick="
+document.getElementById('CCE').style.display='block',
+document.getElementById('OCE').style.display='none',
+document.getElementById('code editor').style.display='block', 
+document.getElementById('btn').style.display='block',
+document.getElementById('bt').style.display='block';">OPEN  EDITOR</button>
+<button  class="neons" type="button" id="CCE"        onclick="
+document.getElementById('CCE').style.display='none',
+document.getElementById('OCE').style.display='block',
+document.getElementById('code editor').style.display='none',
+document.getElementById('btn').style.display='none',
+document.getElementById('bt').style.display='none';"
+style="display:none">CLOSE  EDITOR</button>
 </center>
+</div>
 <br></br>
 <div>
 <center>
-<textarea type="text" id="code editor" placeholder="EDIT YOUR CODE HERE" ></textarea>
+<textarea type="text" id="code editor" placeholder="EDIT YOUR  HERE" ></textarea>
 </center>
 </div>
 <div>
-<center><input type="button" id="btn" style="display:none" value="COPY" ></center>
+<center><input class="neons"  type="button" id="btn" style="display:none" value="COPY" >
+</center>
 </div>
 <div>
-<center> <input type="button" id="bt" value="Save data to file" onclick="saveFile()" style="display:none"/></center>
+<center> <input class="neons"  type="button" id="bt" value="Save data to file" onclick="saveFile()" style="display:none"/></center>
 </div>
+<div>
 <center>
-<div>
-<button type="button" id="OLE"        onclick="document.getElementById('CLE').style.display='block',document.getElementById('OLE').style.display='none',getElementById('enc').style.display='block';">OPEN LUA ENCRPTER</button>
-<button type="button" id="CLE"        onclick="document.getElementById('CLE').style.display='none',document.getElementById('OLE').style.display='block',getElementById('enc').style.display='none';" style="display:none">CLOSE LUA ENCRPTER</button>
-</div>
+  <p>Encrypt your code here⬇️</p>
+<button class="neons"  type="button" id="OLE"        onclick="
+document.getElementById('CLE').style.display='block',
+document.getElementById('OLE').style.display='none',
+document.getElementById('enc').style.display='block';" >OPEN LUA ENCRPTER</button>
+<button  class="neons" type="button" id="CLE"        onclick="
+document.getElementById('CLE').style.display='none',
+document.getElementById('OLE').style.display='block', 
+document.getElementById('enc').style.display='none';" 
+style="display:none">CLOSE LUA ENCRPTER</button>
 </center>
+</div>
 <!--encrptor-->
 <div id="enc" style="display:none">
 <center><h2>LUA ENCRPTER BY:- GANLVTECH</h2></center>
 <p>THE SCRIPT FILE MUST BE IN TXT</p>
-<center><button><a href="https://ganlvtech.github.io/lua-simple-encrypt/" style="color:white">LUA ENCRYTER</a></button></center>
-</div>
+<center><button class="neons" ><a href="https://ganlvtech.github.io/lua-simple-encrypt/" style="color:white">LUA ENCRYTER</a></button></center>
 </div>
 <br></br><br></br>
+<div>
 <center>
-<input type="button" onclick="getElementById('fun').style.display='block',getElementById('fun1').style.display='none',getElementById('fun2').style.display='block';" id="fun1" value="OPEN">
-<input type="button" onclick="getElementById('fun').style.display='none',getElementById('abc').style.display='none',getElementById('fun1').style.display='block',getElementById('fun2').style.display='none';" id="fun2" style="display:none" value="CLOSE">
+  <p>MAKE YOUR MULTICHOICE SCRIPT BY USING THIS TOOL⬇️</p>
+<input class="neons"  type="button" onclick="
+document.getElementById('fun').style.display='block',
+document.getElementById('fun1').style.display='none',
+document.getElementById('fun2').style.display='block';"
+id="fun1" value="OPEN MULTICHOICE">
+<input  class="neons" type="button" onclick="
+document.getElementById('fun').style.display='none',
+document.getElementById('abc').style.display='none',
+document.getElementById('fun1').style.display='block',
+document.getElementById('fun2').style.display='none';"    
+id="fun2" style="display:none" value="CLOSE MULTICHOICE">
 </center>
+</div>
+<!--problem-->
 <br></br>
 <div id="fun" style="display:none">
-<input type="button" onclick="getElementById('abc').style.display='block',getElementById('z1').style.display='none',getElementById('z2').style.display='block';" id="z1" value="OPEN MENU LIST" >
-<input type="button" onclick="getElementById('abc').style.display='none',getElementById('z1').style.display='block',getElementById('z2').style.display='none';" id="z2" style="display:none" value="CLOSE MENU LIST">
+<input  class="neons" type="button" onclick="
+document.getElementById('abc').style.display='block',
+document.getElementById('z1').style.display='none',
+document.getElementById('z2').style.display='block';" 
+id="z1" value="OPEN MENU LIST" >
+<input  class="neons" type="button" onclick="
+document.getElementById('abc').style.display='none',
+document.getElementById('z1').style.display='block',
+document.getElementById('z2').style.display='none';" 
+id="z2" style="display:none" value="CLOSE MENU LIST">
+</div>
 <br><br>
 <div id="abc" style="display:none">
 <div id="a1">
-<input type="button" onclick="getElementById('b1').style.display='block',getElementById('c1').style.display='none',getElementById('c2').style.display='block';" id="c1" value="OPEN MENU CHOICE (1)">
-<input type="button" onclick="getElementById('b1').style.display='none',getElementById('c1').style.display='block',getElementById('c2').style.display='none';" id="c2" style="display:none" value="CLOSE MENU CHOICE(1)">
+<input  class="neons" type="button" onclick="
+document.getElementById('b1').style.display='block',
+document.getElementById('c1').style.display='none',
+document.getElementById('c2').style.display='block';"
+id="c1" value="OPEN MENU CHOICE (1)">
+<input class="neons"  type="button" onclick="
+document.getElementById('b1').style.display='none',
+document.getElementById('c1').style.display='block',
+document.getElementById('c2').style.display='none';" 
+id="c2" style="display:none" value="CLOSE MENU CHOICE(1)">
 </div>
 <!--completed-->
 <div id="a2">
-<input type="button" onclick="getElementById('b2').style.display='block',getElementById('c3').style.display='none',getElementById('c4').style.display='block';" id="c3" value="OPEN MENU CHOICE (2)">
-<input type="button" onclick="getElementById('b2').style.display='none',getElementById('c3').style.display='block',getElementById('c4').style.display='none';" id="c4" style="display:none" value="CLOSE MENU CHOICE(2)">
+<input class="neons"  type="button" onclick="
+document.getElementById('b2').style.display='block',
+document.getElementById('c3').style.display='none',
+document.getElementById('c4').style.display='block';"
+id="c3" value="OPEN MENU CHOICE (2)">
+<input  class="neons" type="button" onclick="
+document.getElementById('b2').style.display='none',
+document.getElementById('c3').style.display='block',
+document.getElementById('c4').style.display='none';" 
+id="c4" style="display:none" value="CLOSE MENU CHOICE(2)">
 </div>
 <!--completed-->
 <div id="a3">
-<input type="button" onclick="getElementById('b3').style.display='block',getElementById('c5').style.display='none',getElementById('c6').style.display='block';" id="c5" value="OPEN MENU CHOICE (3)">
-<input type="button" onclick="getElementById('b3').style.display='none',getElementById('c5').style.display='block',getElementById('c6').style.display='none';" id="c6" style="display:none" value="CLOSE MENU CHOICE (3)">
+<input class="neons"  type="button" onclick="
+document.getElementById('b3').style.display='block',
+document.getElementById('c5').style.display='none',
+document.getElementById('c6').style.display='block';"
+id="c5" value="OPEN MENU CHOICE (3)">
+<input  class="neons" type="button" onclick="
+document.getElementById('b3').style.display='none',
+document.getElementById('c5').style.display='block',
+document.getElementById('c6').style.display='none';"
+id="c6" style="display:none" value="CLOSE MENU CHOICE (3)">
 </div>
 <!--completed-->
 <div id="a4">
-<input type="button" onclick="getElementById('b4').style.display='block',getElementById('c7').style.display='none',getElementById('c8').style.display='block';" id="c7" value="OPEN MENU CHOICE (4)">
-<input type="button" onclick="getElementById('b4').style.display='none',getElementById('c7').style.display='block',getElementById('c8').style.display='none';" id="c8" style="display:none" value="CLOSE MENU CHOICE (4)">
+<input class="neons"  type="button" onclick="
+document.getElementById('b4').style.display='block',
+document.getElementById('c7').style.display='none',
+document.getElementById('c8').style.display='block';"
+id="c7" value="OPEN MENU CHOICE (4)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b4').style.display='none',
+document.getElementById('c7').style.display='block',
+document.getElementById('c8').style.display='none';"
+id="c8" style="display:none" value="CLOSE MENU CHOICE (4)">
 </div>
 <!--completed-->
 <div id="a5">
-<input type="button" onclick="getElementById('b5').style.display='block',getElementById('c9').style.display='none',getElementById('c10').style.display='block';" id="c9" value="OPEN MENU CHOICE (5)">
-<input type="button" onclick="getElementById('b5').style.display='none',getElementById('c9').style.display='block',getElementById('c10').style.display='none';" id="c10" style="display:none" value="CLOSE MENU CHOICE (5)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b5').style.display='block',
+document.getElementById('c9').style.display='none',
+document.getElementById('c10').style.display='block';" 
+id="c9" value="OPEN MENU CHOICE (5)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b5').style.display='none',
+document.getElementById('c9').style.display='block',
+document.getElementById('c10').style.display='none';" 
+id="c10" style="display:none" value="CLOSE MENU CHOICE (5)">
 </div>
 <!--completed-->
 <div id="a6">
-<input type="button" onclick="getElementById('b6').style.display='block',getElementById('c11').style.display='none',getElementById('c12').style.display='block';" id="c11" value="OPEN MENU CHOICE (6)">
-<input type="button" onclick="getElementById('b6').style.display='none',getElementById('c11').style.display='block',getElementById('c12').style.display='none';" id="c12" style="display:none" value="CLOSE MENU CHOICE (6)">
+<input  class="neons"  type="button" onclick="
+document.getElementById('b6').style.display='block',
+document.getElementById('c11').style.display='none',
+document.getElementById('c12').style.display='block';"
+id="c11" value="OPEN MENU CHOICE (6)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b6').style.display='none',
+document.getElementById('c11').style.display='block',
+document.getElementById('c12').style.display='none';" 
+id="c12" style="display:none" value="CLOSE MENU CHOICE (6)">
 </div>
 <!--completed-->
 <div id="a7">
-<input type="button" onclick="getElementById('b7').style.display='block',getElementById('c13').style.display='none',getElementById('c14').style.display='block';" id="c13" value="OPEN MENU CHOICE (7)">
-<input type="button" onclick="getElementById('b7').style.display='none',getElementById('c13').style.display='block',getElementById('c14').style.display='none';" id="c14" style="display:none"  value="CLOSE MENU CHOICE (7)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b7').style.display='block',
+document.getElementById('c13').style.display='none',
+document.getElementById('c14').style.display='block';" 
+id="c13" value="OPEN MENU CHOICE (7)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b7').style.display='none',
+document.getElementById('c13').style.display='block',
+document.getElementById('c14').style.display='none';" 
+id="c14" style="display:none"  value="CLOSE MENU CHOICE (7)">
 </div>
 <!--completed-->
 <div id="a8">
-<input type="button" onclick="getElementById('b8').style.display='block',getElementById('c15').style.display='none',getElementById('c16').style.display='block';" id="c15" value="OPEN MENU CHOICE (8)">
-<input type="button" onclick="getElementById('b8').style.display='none',getElementById('c15').style.display='block',getElementById('c16').style.display='none';" id="c16" style="display:none" value="CLOSE MENU CHOICE (8)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b8').style.display='block',
+document.getElementById('c15').style.display='none',
+document.getElementById('c16').style.display='block';"
+id="c15" value="OPEN MENU CHOICE (8)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b8').style.display='none',
+document.getElementById('c15').style.display='block',
+document.getElementById('c16').style.display='none';"
+id="c16" style="display:none" value="CLOSE MENU CHOICE (8)">
 </div>
 <!--completed-->
 <div id="a9">
-<input type="button" onclick="getElementById('b9').style.display='block',getElementById('c17').style.display='none',getElementById('c18').style.display='block';" id="c17" value="OPEN MENU CHOICE (9)">
-<input type="button" onclick="getElementById('b9').style.display='none',getElementById('c17').style.display='block',getElementById('c18').style.display='none';" id="c18" style="display:none" value="CLOSE MENU CHOICE (9)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b9').style.display='block',
+document.getElementById('c17').style.display='none',
+document.getElementById('c18').style.display='block';" 
+id="c17" value="OPEN MENU CHOICE (9)">
+<input   class="neons" type="button" onclick="
+document.getElementById('b9').style.display='none',
+document.getElementById('c17').style.display='block',
+document.getElementById('c18').style.display='none';"
+id="c18" style="display:none" value="CLOSE MENU CHOICE (9)">
 </div>
+<!--completed-->
 <div id="a10">
-<input type="button" onclick="getElementById('b10').style.display='block',getElementById('c19').style.display='none',getElementById('c20').style.display='block';" id="c19"value="OPEN MENU CHOICE (10)" >
-<input type="button" onclick="getElementById('b10').style.display='none',getElementById('c19').style.display='block',getElementById('c20').style.display='none';" id="c20" style="display:none" value="CLOSE MENU CHOICE (10)">
+<input  class="neons"  type="button" onclick="
+document.getElementById('b10').style.display='block',
+document.getElementById('c19').style.display='none',
+document.getElementById('c20').style.display='block';"
+id="c19"value="OPEN MENU CHOICE (10)" >
+<input   class="neons" type="button" onclick="
+document.getElementById('b10').style.display='none',
+document.getElementById('c19').style.display='block',
+document.getElementById('c20').style.display='none';" id="c20" style="display:none" value="CLOSE MENU CHOICE (10)">
 </div>
 <!--- form starts-->
 <form id="b1" oninput="c1.value=C1.value,
                        c2.value=C2.value,
-                        c3.value=C3.value
-                   " style="display:none">
-<input id="C1" placeholder="ENTER ALERT MSG"><br>
-<input id="C2" placeholder="ENTER MENU NAME"><br>
-<textarea id="C3" placeholder="ENTER THEN CODE MENU1"></textarea><br>
-<br>
-<input type="button" onclick="getElementById('p1').style.display='block',getElementById('u1').style.display='none',getElementById('u2').style.display='block';"  id="u1" value="show script">
-<input type="button" onclick="getElementById('p1').style.display='none',getElementById('u1').style.display='block',getElementById('u2').style.display='none';" id="u2" value="close script" style="display:none" >
-<p id="p1" style="display:none">
-gg.alert('<output id="c1"></output>','script was done by k_l_u modding app')<br>
-<br>
-local t = gg.choice({'<output id="c2"></output>'})
-<br>
--- main code<br>
-<br>
-if t == nil then <br>
-gg.alert('Canceled')<br>
- else <br>
-if t[1] <br>
-<output id="c3" style="white-space:pre"></output>
-<br>
+                       c3.value=C3.value,
+                       c4.value=C4.value,
+                       c5.value=C5.value" style="display:none">
+<h2>SINGLE MENU MAKER</h2>
+ <input id="C1" placeholder="ENTER MENU1 NAME"><br>
+ <input id="C2" placeholder="ENTER EXIT NAME"><br>
+ <textarea id='C3' placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<input id='C4' placeholder="ENTER EXIT TOAST"><br>
+<input id='C5' placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+  <input  class="neons"  onclick="
+  document.getElementById('m1').style.display='none',
+  document.getElementById('m2').style.display='block',
+  document.getElementById('kv1').style.display='block',
+  document.getElementById('kv2').style.display='block',
+  document.getElementById('KV1').style.display='none',
+  document.getElementById('KV2').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+  <input   class="neons" onclick="
+  document.getElementById('m1').style.display='block',
+  document.getElementById('m2').style.display='none',
+  document.getElementById('kv1').style.display='none',
+  document.getElementById('kv2').style.display='none',
+  document.getElementById('KV1').style.display='block',
+  document.getElementById('KV2').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+  <input   class="neons" onclick="
+  document.getElementById('m1').style.display='block',
+  document.getElementById('m2').style.display='none',
+  document.getElementById('kv1').style.display='block',
+  document.getElementById('kv2').style.display='block',
+  document.getElementById('KV1').style.display='none',
+  document.getElementById('KV2').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+  
+  <input   class="neons" onclick="
+  document.getElementById('q1').style.display='block',
+  document.getElementById('C5').style.display='block',
+  document.getElementById('x1').style.display='none',
+  document.getElementById('X1').style.display='block';
+  " type="button" id="x1" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q1').style.display='none',
+  document.getElementById('C5').style.display='none',
+  document.getElementById('x1').style.display='block',
+  document.getElementById('X1').style.display='none';
+  " type="button" id="X1" value="REMOVE EXPIRE" style="display:none">
+  
+  <br>
+<input  class="neons"  type="button" onclick="
+document.getElementById('p1').style.display='block',
+document.getElementById('u1').style.display='none',
+document.getElementById('u2').style.display='block';" 
+id="u1" value="show script">
+<input   class="neons" type="button" onclick="
+document.getElementById('p1').style.display='none',
+document.getElementById('u1').style.display='block',
+document.getElementById('u2').style.display='none';" 
+id="u2" value="close script" style="display:none" >
+<div id="p1" style="display:none">
+<span id="q1"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c5"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
 end<br>
-end
-</p>
+</span>
+KLUMODDING = -1<br>
+function KLU()<br>
+klumenu = gg.<span id="m1">choice</span><span id="m2" style="display:none">multiChoice</span>({<br>
+        "<output id="c1"></output>",<br>
+        "<output id="c2"></output>",<br>
+}, <span id="KV1">0</span><span id="kv1" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV2">0</span><span id="kv2" style="display:none">nil</span> then else<br>
+if klumenu == 1 then klu1() end<br>
+if klumenu == 2 then klu2() end<br>
+end<br>
+KLUMODDING = -1<br>
+end<br>
+<br>
+function klu1() <br>
+<output id="c3" style="white-space:pre"></output><br>
+end<br>
+<br>
+function klu2()<br>
+os.exit(print(' <output id="c4" >THANKS FOR USING OUR SCRIPT</output>'))<br>
+end<br>
+while true do<br>
+if gg.isVisible(true) then<br>
+KLUMODDING = 1<br>
+gg.setVisible(false)<br>
+end<br>
+if KLUMODDING == 1 then<br>
+KLU()<br>
+end<br>
+end<br>
+<input  class="neons"  type="button" onclick="clickToCopyText('p1')" value="COPY CODE">
+</div>
 </form>
+<br></br>
 <!--completed-->
 <form id="b2" oninput="c1.value=C1.value,
                        c2.value=C2.value,
                        c3.value=C3.value,
                        c4.value=C4.value,
                        c5.value=C5.value,
-                       c6.value=C6.value" style="display:none">
+                       c6.value=C6.value,
+                       c7.value=C7.value" style="display:none">
+<h2>2 MENU MAKER</h2>
  <input id="C1" placeholder="ENTER MENU1 NAME"><br>
  <input id="C2" placeholder="ENTER MENU2 NAME"><br>
  <input id="C3" placeholder="ENTER EXIT3 NAME"><br>
- <textarea id='C4' placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
- <textarea id="C5" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
+ <textarea id='C4' placeholder="PASTE THE  FOR MENU1"></textarea><br>
+ <textarea id="C5" placeholder="PASTE THE  FOR MENU2"></textarea><br>
 <input id='C6' placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p2').style.display='block',getElementById('u3').style.display='none',getElementById('u4').style.display='block';"  id="u3" value="show script">
-<input type="button" onclick="getElementById('p2').style.display='none',getElementById('u3').style.display='block',getElementById('u4').style.display='none';" id="u4" value="close script" style="display:none" ><br>
-<p id="p2" style="display:none">
+<input id='C7' placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input  class="neons"  onclick="
+  document.getElementById('m3').style.display='none',
+  document.getElementById('m4').style.display='block',
+  document.getElementById('kv3').style.display='block',
+  document.getElementById('kv4').style.display='block',
+  document.getElementById('KV3').style.display='none',
+  document.getElementById('KV4').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+  <input  class="neons"  onclick="
+  document.getElementById('m3').style.display='block',
+  document.getElementById('m4').style.display='none',
+  document.getElementById('kv3').style.display='none',
+  document.getElementById('kv4').style.display='none',
+  document.getElementById('KV3').style.display='block',
+  document.getElementById('KV4').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+  <input   class="neons" onclick="
+  document.getElementById('m3').style.display='block',
+  document.getElementById('m4').style.display='none',
+  document.getElementById('kv3').style.display='block',
+  document.getElementById('kv4').style.display='block',
+  document.getElementById('KV3').style.display='none',
+  document.getElementById('KV4').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+   <input   class="neons" onclick="
+  document.getElementById('q2').style.display='block',
+  document.getElementById('C7').style.display='block',
+  document.getElementById('x2').style.display='none',
+  document.getElementById('X2').style.display='block';
+  " type="button" id="x2" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q2').style.display='none',
+  document.getElementById('C7').style.display='none',
+  document.getElementById('x2').style.display='block',
+  document.getElementById('X2').style.display='none';
+  " type="button" id="X2" value="REMOVE EXPIRE" style="display:none">
+  
+  <br>
+
+<input   class="neons" type="button" onclick="
+document.getElementById('p2').style.display='block',
+document.getElementById('u3').style.display='none',
+document.getElementById('u4').style.display='block';"  id="u3" value="show script">
+<input   class="neons" type="button" onclick="
+document.getElementById('p2').style.display='none',
+document.getElementById('u3').style.display='block',
+document,getElementById('u4').style.display='none';"
+id="u4" value="close script" style="display:none" ><br>
+<div id="p2" style="display:none">
+<span id="q2"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c7"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m3">choice</span><span id="m4" style="display:none">multiChoice</span>({<br>
         "<output id="c1" ></output>",<br>
         "<output id="c2" ></output>",<br>
         "<output id="c3" ></output>"<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV3">0</span><span id="kv3" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV4">0</span><span id="kv4" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -567,8 +1127,10 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input   class="neons" type="button" onclick="clickToCopyText('p2')" value="COPY CODE">
+</div>
 </form>
+<br></br>
 <!---completed-->
 <form id="b3" oninput="c1.value=C1.value,
                        c2.value=C2.value,
@@ -577,27 +1139,82 @@ end<br>
                        c5.value=C5.value,
                        c6.value=C6.value,
                        c7.value=C7.value,
-                       c8.value=C8.value" style="display:none">
+                       c8.value=C8.value,
+                       c9.value=C9.value" style="display:none">
+<h2>3 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
 <input id="C4" placeholder="ENTER EXIT4 NAME"><br>
-<textarea id="C5" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C6" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C7" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
+<textarea id="C5" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C6" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C7" placeholder="PASTE THE  FOR MENU3"></textarea><br>
 <input id="C8" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p3').style.display='block',getElementById('u5').style.display='none',getElementById('u6').style.display='block';"  id="u5" value="show script">
-<input type="button" onclick="getElementById('p3').style.display='none',getElementById('u5').style.display='block',getElementById('u6').style.display='none';" id="u6" value="close script" style="display:none" ><br>
-<p id="p3" style="display:none">
+<input id="C9" placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input  class="neons"  onclick="
+  document.getElementById('m5').style.display='none',
+  document.getElementById('m6').style.display='block',
+  document.getElementById('kv5').style.display='block',
+  document.getElementById('kv6').style.display='block',
+  document.getElementById('KV5').style.display='none',
+  document.getElementById('KV6').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input  class="neons"  onclick="
+  document.getElementById('m5').style.display='block',
+  document.getElementById('m6').style.display='none',
+  document.getElementById('kv5').style.display='none',
+  document.getElementById('kv6').style.display='none',
+  document.getElementById('KV5').style.display='block',
+  document.getElementById('KV6').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input  class="neons" onclick="
+  document.getElementById('m5').style.display='block',
+  document.getElementById('m6').style.display='none',
+  document.getElementById('kv5').style.display='block',
+  document.getElementById('kv6').style.display='block',
+  document.getElementById('KV5').style.display='none',
+  document.getElementById('KV6').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+   <input  class="neons"  onclick="
+  document.getElementById('q3').style.display='block',
+  document.getElementById('C9').style.display='block',
+  document.getElementById('x3').style.display='none',
+  document.getElementById('X3').style.display='block';
+  " type="button" id="x3" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q3').style.display='none',
+  document.getElementById('C9').style.display='none',
+  document.getElementById('x3').style.display='block',
+  document.getElementById('X3').style.display='none';
+  " type="button" id="X3" value="REMOVE EXPIRE" style="display:none">
+  <br>
+  <input  class="neons"  type="button" onclick="
+document.getElementById('p3').style.display='block',
+document.getElementById('u5').style.display='none',
+document.getElementById('u6').style.display='block';"  
+id="u5" value="show script">
+<input  class="neons"  type="button" onclick="
+document.getElementById('p3').style.display='none',
+document.getElementById('u5').style.display='block',
+document.getElementById('u6').style.display='none';"
+id="u6" value="close script" style="display:none" ><br>
+<div id="p3" style="display:none">
+<span id="q3"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c9"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m5">choice</span><span id="m6" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
         "<output id="c4"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV5">0</span><span id="kv5" style="display:none">nil</span>, "klumodding")<br>
+if klumenu ==  <span id="KV6">0</span><span id="kv6" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -630,8 +1247,10 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input  class="neons"  type="button" onclick="clickToCopyText('p3')" value="COPY CODE">
+</div>
 </form>
+<br></br>
 <!---completed-->
 <form id="b4" oninput="c1.value=C1.value,
                        c2.value=C2.value,
@@ -642,30 +1261,85 @@ end<br>
                        c7.value=C7.value,
                        c8.value=C8.value,
                        c9.value=C9.value,
-                       c10.value=C10.value" style="display:none">
+                       c10.value=C10.value,
+                       c11.value=C11.value" style="display:none">
+<h2>4 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
 <input id="C4" placeholder="ENTER MENU4 NAME"><br>
 <input id="C5" placeholder="ENTER EXIT5 NAME"><br>
-<textarea id="C6" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C7" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C8" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C9" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
+<textarea id="C6" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C7" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C8" placeholder="PASTE THE  FOR MENU3"></textarea><br>
+<textarea id="C9" placeholder="PASTE THE  FOR MENU4"></textarea><br>
 <input id="C10" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p4').style.display='block',getElementById('u7').style.display='none',getElementById('u8').style.display='block';"  id="u7" value="show script">
-<input type="button" onclick="getElementById('p4').style.display='none',getElementById('u7').style.display='block',getElementById('u8').style.display='none';" id="u8" value="close script" style="display:none" ><br>
-<p id="p4" style="display:none">
+<input id="C11" placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input  class="neons"  onclick="
+  document.getElementById('m7').style.display='none',
+  document.getElementById('m8').style.display='block',
+  document.getElementById('kv7').style.display='block',
+  document.getElementById('kv8').style.display='block',
+  document.getElementById('KV7').style.display='none',
+  document.getElementById('KV8').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input   class="neons" onclick="
+  document.getElementById('m7').style.display='block',
+  document.getElementById('m8').style.display='none',
+  document.getElementById('kv7').style.display='none',
+  document.getElementById('kv8').style.display='none',
+  document.getElementById('KV7').style.display='block',
+  document.getElementById('KV8').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input   class="neons" onclick="
+  document.getElementById('m7').style.display='block',
+  document.getElementById('m8').style.display='none',
+  document.getElementById('kv7').style.display='block',
+  document.getElementById('kv8').style.display='block',
+  document.getElementById('KV7').style.display='none',
+  document.getElementById('KV8').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+  <input  class="neons"  onclick="
+  document.getElementById('q4').style.display='block',
+  document.getElementById('C11').style.display='block',
+  document.getElementById('x4').style.display='none',
+  document.getElementById('X4').style.display='block';
+  " type="button" id="x4" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q4').style.display='none',
+  document.getElementById('C11').style.display='none',
+  document.getElementById('x4').style.display='block',
+  document.getElementById('X4').style.display='none';
+  " type="button" id="X4" value="REMOVE EXPIRE" style="display:none">
+  <br>
+<input  class="neons"  type="button" onclick="
+document.getElementById('p4').style.display='block',
+document.getElementById('u7').style.display='none',
+document.getElementById('u8').style.display='block';"  
+id="u7" value="show script">
+<input   class="neons" type="button" onclick="
+document.getElementById('p4').style.display='none',
+document.getElementById('u7').style.display='block',
+document.getElementById('u8').style.display='none';" 
+id="u8" value="close script" style="display:none" ><br>
+<div id="p4" style="display:none">
+<span id="q4"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c11"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m7">choice</span><span id="m8" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
         "<output id="c4"></output>",<br>
         "<output id="c5"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV7">0</span><span id="kv7" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV8">0</span><span id="kv8" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -703,8 +1377,10 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input  class="neons"  type="button" onclick="clickToCopyText('p4')" value="COPY CODE">
+</div>
 </form>
+<br></br>
 <!---completed-->
 <form id="b5" oninput="c1.value=C1.value,
                        c2.value=C2.value,
@@ -717,33 +1393,88 @@ end<br>
                        c9.value=C9.value,
                        c10.value=C10.value,
                        c11.value=C11.value,
-                       c12.value=C12.value" style="display:none">
+                       c12.value=C12.value,
+                       c13.value=C13.value" style="display:none">
+<h2>5 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
 <input id="C4" placeholder="ENTER MENU4 NAME"><br>
 <input id="C5" placeholder="ENTER MENU5 NAME"><br>
 <input id="C6" placeholder="ENTER EXIT6 NAME"><br>
-<textarea id="C7" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C8" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C9" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C10" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
-<textarea id="C11" placeholder="PASTE THE CODE FOR MENU5"></textarea><br>
+<textarea id="C7" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C8" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C9" placeholder="PASTE THE  FOR MENU3"></textarea><br>
+<textarea id="C10" placeholder="PASTE THE  FOR MENU4"></textarea><br>
+<textarea id="C11" placeholder="PASTE THE  FOR MENU5"></textarea><br>
 <input id="C12" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p5').style.display='block',getElementById('u9').style.display='none',getElementById('u10').style.display='block';"  id="u9" value="show script">
-<input type="button" onclick="getElementById('p5').style.display='none',getElementById('u9').style.display='block',getElementById('u10').style.display='none';" id="u10" value="close script" style="display:none" ><br>
-<p id="p5" style="display:none">
+<input id="C13" placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input   class="neons" onclick="
+  document.getElementById('m9').style.display='none',
+  document.getElementById('m10').style.display='block',
+  document.getElementById('kv9').style.display='block',
+  document.getElementById('kv10').style.display='block',
+  document.getElementById('KV9').style.display='none',
+  document.getElementById('KV10').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input   class="neons" onclick="
+  document.getElementById('m9').style.display='block',
+  document.getElementById('m10').style.display='none',
+  document.getElementById('kv9').style.display='none',
+  document.getElementById('kv10').style.display='none',
+  document.getElementById('KV9').style.display='block',
+  document.getElementById('KV10').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input   class="neons" onclick="
+  document.getElementById('m9').style.display='block',
+  document.getElementById('m10').style.display='none',
+  document.getElementById('kv9').style.display='block',
+  document.getElementById('kv10').style.display='block',
+  document.getElementById('KV9').style.display='none',
+  document.getElementById('KV10').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+  <input   class="neons" onclick="
+  document.getElementById('q5').style.display='block',
+  document.getElementById('C13').style.display='block',
+  document.getElementById('x5').style.display='none',
+  document.getElementById('X5').style.display='block';
+  " type="button" id="x5" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q5').style.display='none',
+  document.getElementById('C13').style.display='none',
+  document.getElementById('x5').style.display='block',
+  document.getElementById('X5').style.display='none';
+  " type="button" id="X5" value="REMOVE EXPIRE" style="display:none">
+  <br>
+<input  class="neons"  type="button" onclick="
+document.getElementById('p5').style.display='block',
+document.getElementById('u9').style.display='none',
+document.getElementById('u10').style.display='block';" 
+id="u9" value="show script">
+<input   class="neons" type="button" onclick="
+document.getElementById('p5').style.display='none',
+document.getElementById('u9').style.display='block',
+document.getElementById('u10').style.display='none';"
+id="u10" value="close script" style="display:none" ><br>
+<div id="p5" style="display:none">
+<span id="q5"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c13"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m9">choice</span><span id="m10" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
         "<output id="c4"></output>",<br>
         "<output id="c5"></output>",<br>
         "<output id="c6"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV9">0</span><span id="kv9" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV10">0</span><span id="kv10" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -786,9 +1517,11 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input  class="neons"  type="button" onclick="clickToCopyText('p5')" value="COPY CODE">
+</div>
 </form>
 <!---completed-->
+<br></br>
 <form id="b6" oninput="c1.value=C1.value,
                        c2.value=C2.value,
                        c3.value=C3.value,
@@ -802,7 +1535,9 @@ end<br>
                        c11.value=C11.value,
                        c12.value=C12.value,
                        c13.value=C13.value,
-                       c14.value=C14.value" style="display:none">
+                       c14.value=C14.value,
+                       c15.value=C15.value" style="display:none">
+<h2>6 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
@@ -810,19 +1545,71 @@ end<br>
 <input id="C5" placeholder="ENTER MENU5 NAME"><br>
 <input id="C6" placeholder="ENTER MENU6 NAME"><br>
 <input id="C7" placeholder="ENTER EXIT7 NAME"><br>
-<textarea id="C8" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C9" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C10" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C11" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
-<textarea id="C12" placeholder="PASTE THE CODE FOR MENU5"></textarea><br>
-<textarea id="C13" placeholder="PASTE THE CODE FOR MENU6"></textarea><br>
+<textarea id="C8" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C9" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C10" placeholder="PASTE THE  FOR MENU3"></textarea><br>
+<textarea id="C11" placeholder="PASTE THE  FOR MENU4"></textarea><br>
+<textarea id="C12" placeholder="PASTE THE  FOR MENU5"></textarea><br>
+<textarea id="C13" placeholder="PASTE THE  FOR MENU6"></textarea><br>
 <input id="C14" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p6').style.display='block',getElementById('u11').style.display='none',getElementById('u12').style.display='block';"  id="u11" value="show script">
-<input type="button" onclick="getElementById('p6').style.display='none',getElementById('u11').style.display='block',getElementById('u12').style.display='none';" id="u12" value="close script" style="display:none" ><br>
-<p id="p6" style="display:none">
+<input id="C15" placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input  class="neons"  onclick="
+  document.getElementById('m11').style.display='none',
+  document.getElementById('m12').style.display='block',
+  document.getElementById('kv11').style.display='block',
+  document.getElementById('kv12').style.display='block',
+  document.getElementById('KV11').style.display='none',
+  document.getElementById('KV12').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input   class="neons" onclick="
+  document.getElementById('m11').style.display='block',
+  document.getElementById('m12').style.display='none',
+  document.getElementById('kv11').style.display='none',
+  document.getElementById('kv12').style.display='none',
+  document.getElementById('KV11').style.display='block',
+  document.getElementById('KV12').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input  class="neons"  onclick="
+  document.getElementById('m11').style.display='block',
+  document.getElementById('m12').style.display='none',
+  document.getElementById('kv11').style.display='block',
+  document.getElementById('kv12').style.display='block',
+  document.getElementById('KV11').style.display='none',
+  document.getElementById('KV12').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+   <input  class="neons"  onclick="
+  document.getElementById('q6').style.display='block',
+  document.getElementById('C15').style.display='block',
+  document.getElementById('x6').style.display='none',
+  document.getElementById('X6').style.display='block';
+  " type="button" id="x6" value="ADD EXPIRE">
+  <input  class="neons"  onclick="
+  document.getElementById('q6').style.display='none',
+  document.getElementById('C15').style.display='none',
+  document.getElementById('x6').style.display='block',
+  document.getElementById('X6').style.display='none';
+  " type="button" id="X6" value="REMOVE EXPIRE" style="display:none">
+  <br>
+<input   class="neons" type="button" onclick="
+document.getElementById('p6').style.display='block',
+document.getElementById('u11').style.display='none',
+document.getElementById('u12').style.display='block';"  id="u11" value="show script">
+<input   class="neons" type="button" onclick="
+document.getElementById('p6').style.display='none',
+document.getElementById('u11').style.display='block',
+document.getElementById('u12').style.display='none';" 
+id="u12" value="close script" style="display:none" ><br>
+<div id="p6" style="display:none">
+<span id="q6"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c15"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m11">choice</span><span id="m12" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
@@ -830,8 +1617,8 @@ klumenu = gg.choice({<br>
         "<output id="c5"></output>",<br>
         "<output id="c6"></output>",<br>
         "<output id="c7"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV11">0</span><span id="kv11" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV12">0</span><span id="kv12" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -879,8 +1666,11 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
-  </form>
+<input  class="neons"  type="button" onclick="clickToCopyText('p6')" value="COPY CODE">
+</div>
+</form>
+<!---completed-->
+<br></br>
 <!---completed-->
 <form id="b7" oninput="c1.value=C1.value,
                        c2.value=C2.value,
@@ -897,29 +1687,84 @@ end<br>
                        c13.value=C13.value,
                        c14.value=C14.value,
                        c15.value=C15.value,
-                       c16.value=C16.value" style="display:none">
+                       c16.value=C16.value,
+                       c17.value=C17.value" style="display:none">
+<h2>7 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
 <input id="C4" placeholder="ENTER MENU4 NAME"><br>
 <input id="C5" placeholder="ENTER MENU5 NAME"><br>
 <input id="C6" placeholder="ENTER MENU6 NAME"><br>
-<input id="C7" placeholder="ENTER MENU6 NAME"><br>
-<input id="C8" placeholder="ENTER EXIT7 NAME"><br>
-<textarea id="C9" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C10" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C11" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C12" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
-<textarea id="C13" placeholder="PASTE THE CODE FOR MENU5"></textarea><br>
-<textarea id="C14" placeholder="PASTE THE CODE FOR MENU6"></textarea><br>
-<textarea id="C15" placeholder="PASTE THE CODE FOR MENU7"></textarea><br>
+<input id="C7" placeholder="ENTER MENU7 NAME"><br>
+<input id="C8" placeholder="ENTER EXIT8 NAME"><br>
+<textarea id="C9" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C10" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C11" placeholder="PASTE THE  FOR MENU3"></textarea><br>
+<textarea id="C12" placeholder="PASTE THE  FOR MENU4"></textarea><br>
+<textarea id="C13" placeholder="PASTE THE  FOR MENU5"></textarea><br>
+<textarea id="C14" placeholder="PASTE THE  FOR MENU6"></textarea><br>
+<textarea id="C15" placeholder="PASTE THE  FOR MENU7"></textarea><br>
 <input id="C16" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p7').style.display='block',getElementById('u13').style.display='none',getElementById('u14').style.display='block';"  id="u13" value="show script">
-<input type="button" onclick="getElementById('p7').style.display='none',getElementById('u13').style.display='block',getElementById('u14').style.display='none';" id="u14" value="close script" style="display:none" ><br>
-<p id="p7" style="display:none">
-  KLUMODDING = -1<br>
+<input id="C17" placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input   class="neons" onclick="
+  document.getElementById('m13').style.display='none',
+  document.getElementById('m14').style.display='block',
+  document.getElementById('kv13').style.display='block',
+  document.getElementById('kv14').style.display='block',
+  document.getElementById('KV13').style.display='none',
+  document.getElementById('KV14').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input  class="neons"  onclick="
+  document.getElementById('m13').style.display='block',
+  document.getElementById('m14').style.display='none',
+  document.getElementById('kv13').style.display='none',
+  document.getElementById('kv14').style.display='none',
+  document.getElementById('KV13').style.display='block',
+  document.getElementById('KV14').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input  class="neons"  onclick="
+  document.getElementById('m13').style.display='block',
+  document.getElementById('m14').style.display='none',
+  document.getElementById('kv13').style.display='block',
+  document.getElementById('kv14').style.display='block',
+  document.getElementById('KV13').style.display='none',
+  document.getElementById('KV14').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+     <input  class="neons"  onclick="
+  document.getElementById('q7').style.display='block',
+  document.getElementById('C16').style.display='block',
+  document.getElementById('x7').style.display='none',
+  document.getElementById('X7').style.display='block';
+  " type="button" id="x7" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q7').style.display='none',
+  document.getElementById('C16').style.display='none',
+  document.getElementById('x7').style.display='block',
+  document.getElementById('X7').style.display='none';
+  " type="button" id="X7" value="REMOVE EXPIRE" style="display:none">
+  <br>
+<input   class="neons" type="button" onclick="
+document.getElementById('p7').style.display='block',
+document.getElementById('u13').style.display='none',
+document.getElementById('u14').style.display='block';" 
+id="u13" value="show script">
+<input   class="neons" type="button" onclick="
+document.getElementById('p7').style.display='none',
+document.getElementById('u13').style.display='block',
+document.getElementById('u14').style.display='none';" 
+id="u14" value="close script" style="display:none" ><br>
+<div id="p7" style="display:none">
+<span id="q7"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c17"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
+KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m13">choice</span><span id="m14" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
@@ -928,8 +1773,8 @@ klumenu = gg.choice({<br>
         "<output id="c6"></output>",<br>
         "<output id="c7"></output>",<br>
         "<output id="c8"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV13">0</span><span id="kv13" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV14">0</span><span id="kv14" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -982,8 +1827,10 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input  class="neons"  type="button" onclick="clickToCopyText('p7')" value="COPY CODE">
+</div>
 </form>
+<br></br>
 <!---completed-->
 <form id="b8" oninput="c1.value=C1.value,
                        c2.value=C2.value,
@@ -1002,7 +1849,9 @@ end<br>
                        c15.value=C15.value,
                        c16.value=C16.value,
                        c17.value=C17.value,
-                       c18.value=C18.value" style="display:none">
+                       c18.value=C18.value,
+                       c19.value=C19.value" style="display:none">
+<h2>8 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
@@ -1012,21 +1861,73 @@ end<br>
 <input id="C7" placeholder="ENTER MENU7 NAME"><br>
 <input id="C8" placeholder="ENTER MENU8 NAME"><br>
 <input id="C9" placeholder="ENTER EXIT8 NAME"><br>
-<textarea id="C10" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C11" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C12" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C13" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
-<textarea id="C14" placeholder="PASTE THE CODE FOR MENU5"></textarea><br>
-<textarea id="C15" placeholder="PASTE THE CODE FOR MENU6"></textarea><br>
-<textarea id="C16" placeholder="PASTE THE CODE FOR MENU7"></textarea><br>
-<textarea id="C17" placeholder="PASTE THE CODE FOR MENU8"></textarea><br>
+<textarea id="C10" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C11" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C12" placeholder="PASTE THE  FOR MENU3"></textarea><br>
+<textarea id="C13" placeholder="PASTE THE  FOR MENU4"></textarea><br>
+<textarea id="C14" placeholder="PASTE THE  FOR MENU5"></textarea><br>
+<textarea id="C15" placeholder="PASTE THE  FOR MENU6"></textarea><br>
+<textarea id="C16" placeholder="PASTE THE  FOR MENU7"></textarea><br>
+<textarea id="C17" placeholder="PASTE THE  FOR MENU8"></textarea><br>
 <input id="C18" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p8').style.display='block',getElementById('u15').style.display='none',getElementById('u16').style.display='block';"  id="u15" value="show script">
-<input type="button" onclick="getElementById('p8').style.display='none',getElementById('u15').style.display='block',getElementById('u16').style.display='none';" id="u16" value="close script" style="display:none" ><br>
-<p id="p8" style="display:none">
+<input id="C19" placeholder="ENTER EXPIRE DATE" style="display:none"><br>
+<input   class="neons" onclick="
+  document.getElementById('m15').style.display='none',
+  document.getElementById('m16').style.display='block',
+  document.getElementById('kv15').style.display='block',
+  document.getElementById('kv16').style.display='block',
+  document.getElementById('KV15').style.display='none',
+  document.getElementById('KV16').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input  class="neons"  onclick="
+  document.getElementById('m15').style.display='block',
+  document.getElementById('m16').style.display='none',
+  document.getElementById('kv15').style.display='none',
+  document.getElementById('kv16').style.display='none',
+  document.getElementById('KV15').style.display='block',
+  document.getElementById('KV16').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input   class="neons" onclick="
+  document.getElementById('m15').style.display='block',
+  document.getElementById('m16').style.display='none',
+  document.getElementById('kv15').style.display='block',
+  document.getElementById('kv16').style.display='block',
+  document.getElementById('KV15').style.display='none',
+  document.getElementById('KV16').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+<input  class="neons"  onclick="
+  document.getElementById('q8').style.display='block',
+  document.getElementById('C19').style.display='block',
+  document.getElementById('x8').style.display='none',
+  document.getElementById('X8').style.display='block';
+  " type="button" id="x8" value="ADD EXPIRE">
+  <input   class="neons" onclick="
+  document.getElementById('q8').style.display='none',
+  document.getElementById('C19').style.display='none',
+  document.getElementById('x8').style.display='block',
+  document.getElementById('X8').style.display='none';
+  " type="button" id="X8" value="REMOVE EXPIRE" style="display:none">
+  <br>
+<input  class="neons"  type="button" onclick="
+document.getElementById('p8').style.display='block',
+document.getElementById('u15').style.display='none',
+document.getElementById('u16').style.display='block';"  id="u15" value="show script">
+<input  class="neons"  type="button" onclick="
+document.getElementById('p8').style.display='none',
+document.getElementById('u15').style.display='block',
+document.getElementById('u16').style.display='none';" 
+id="u16" value="close script" style="display:none" ><br>
+<div id="p8" style="display:none">
+<span id="q8"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c19"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m15">choice</span><span id="m16" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
@@ -1036,8 +1937,8 @@ klumenu = gg.choice({<br>
         "<output id="c7"></output>",<br>
         "<output id="c8"></output>",<br>
         "<output id="c9"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV15">0</span><span id="kv15" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV16">0</span><span id="kv16" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -1073,7 +1974,7 @@ end<br>
 <br>
 function klu6() <br>
 <output id="c15" style="white-space:pre"></output><br>
-end
+end<br>
 <br>
 function klu7() <br>
 <output id="c16" style="white-space:pre"></output><br>
@@ -1096,8 +1997,10 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input  class="neons"  type="button" onclick="clickToCopyText('p8')" value="COPY CODE">
+</div>
 </form>
+<br></br>
 <!---completed-->
 <form id="b9" oninput="c1.value=C1.value,
                        c2.value=C2.value,
@@ -1118,7 +2021,9 @@ end<br>
                        c17.value=C17.value,
                        c18.value=C18.value,
                        c19.value=C19.value,
-                       c20.value=C20.value" style="display:none">
+                       c20.value=C20.value,
+                       c21.value=C21.value" style="display:none">
+<h2>9 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
@@ -1129,22 +2034,69 @@ end<br>
 <input id="C8" placeholder="ENTER MENU8 NAME"><br>
 <input id="C9" placeholder="ENTER MENU9 NAME"><br>
 <input id="C10" placeholder="ENTER EXIT10 NAME"><br>
-<textarea id="C11" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C12" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C13" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C14" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
-<textarea id="C15" placeholder="PASTE THE CODE FOR MENU5"></textarea><br>
-<textarea id="C16" placeholder="PASTE THE CODE FOR MENU6"></textarea><br>
-<textarea id="C17" placeholder="PASTE THE CODE FOR MENU7"></textarea><br>
-<textarea id="C18" placeholder="PASTE THE CODE FOR MENU8"></textarea><br>
-<textarea id="C19" placeholder="PASTE THE CODE FOR MENU8"></textarea><br>
+<textarea id="C11" placeholder="PASTE THE FOR MENU1"></textarea><br>
+<textarea id="C12" placeholder="PASTE THE FOR MENU2"></textarea><br>
+<textarea id="C13" placeholder="PASTE THE FOR MENU3"></textarea><br>
+<textarea id="C14" placeholder="PASTE THE FOR MENU4"></textarea><br>
+<textarea id="C15" placeholder="PASTE THE FOR MENU5"></textarea><br>
+<textarea id="C16" placeholder="PASTE THE FOR MENU6"></textarea><br>
+<textarea id="C17" placeholder="PASTE THE FOR MENU7"></textarea><br>
+<textarea id="C18" placeholder="PASTE THE FOR MENU8"></textarea><br>
+<textarea id="C19" placeholder="PASTE THE FOR MENU9"></textarea><br>
 <input id="C20" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p9').style.display='block',getElementById('u17').style.display='none',getElementById('u18').style.display='block';"  id="u17" value="show script">
-<input type="button" onclick="getElementById('p9').style.display='none',getElementById('u17').style.display='block',getElementById('u18').style.display='none';" id="u18" value="close script" style="display:none" ><br>
-<p id="p9" style="display:none">
-  KLUMODDING = -1<br>
+<input id="C21" placeholder="ENTER EXPIRE DATE"><br>
+<input  class="neons"  onclick="
+  document.getElementById('m17').style.display='none',
+  document.getElementById('m18').style.display='block',
+  document.getElementById('kv17').style.display='block',
+  document.getElementById('kv18').style.display='block',
+  document.getElementById('KV17').style.display='none',
+  document.getElementById('KV18').style.display='none';
+  " type="button" value="MULTI CHOICE"/>
+<input  class="neons"  onclick="
+  document.getElementById('m17').style.display='block',
+  document.getElementById('m18').style.display='none',
+  document.getElementById('kv17').style.display='none',
+  document.getElementById('kv18').style.display='none',
+  document.getElementById('KV17').style.display='block',
+  document.getElementById('KV18').style.display='block';
+  " type="button" value="CIRCLE STYLE"/>
+<input   class="neons" onclick="
+  document.getElementById('m17').style.display='block',
+  document.getElementById('m18').style.display='none',
+  document.getElementById('kv17').style.display='block',
+  document.getElementById('kv18').style.display='block',
+  document.getElementById('KV17').style.display='none',
+  document.getElementById('KV18').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"/><br>
+  
+<input   class="neons" onclick="
+  document.getElementById('q9').style.display='block',
+  document.getElementById('C21').style.display='block',
+  document.getElementById('x9').style.display='none',
+  document.getElementById('X9').style.display='block';
+  " type="button" id="x9" value="ADD EXPIRE">
+  <input  class="neons"  onclick="
+  document.getElementById('q9').style.display='none',
+  document.getElementById('C21').style.display='none',
+  document.getElementById('x9').style.display='block',
+  document.getElementById('X9').style.display='none';
+  " type="button" id="X9" value="REMOVE EXPIRE" style="display:none">
+  <br>
+  
+<input  class="neons"  type="button" onclick="getElementById('p9').style.display='block',getElementById('u17').style.display='none',getElementById('u18').style.display='block';"  id="u17" value="show script">
+<input class="neons"  type="button" onclick="getElementById('p9').style.display='none',getElementById('u17').style.display='block',getElementById('u18').style.display='none';" id="u18" value="close script" style="display:none" ><br>
+<div id="p9" style="display:none">
+<span id="q9"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c21"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
+KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m17">choice</span><span id="m18" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
@@ -1155,8 +2107,8 @@ klumenu = gg.choice({<br>
         "<output id="c8"></output>",<br>
         "<output id="c9"></output>",<br>
         "<output id="c10"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV17">0</span><span id="kv17" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV18">0</span><span id="kv18" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -1220,11 +2172,14 @@ if KLUMODDING == 1 then<br>
 KLU()<br>
 end<br>
 end<br>
-</p>
+<input   class="neons" type="button" onclick="clickToCopyText('p9')" value="COPY CODE">
+</div>
 </form>
+<br></br>
+<!---completed-->
 <form id="b10" oninput="c1.value=C1.value,
                        c2.value=C2.value,
-                       c3.value=C3.value,
+                       .value=C3.value,
                        c4.value=C4.value,
                        c5.value=C5.value,
                        c6.value=C6.value,
@@ -1243,7 +2198,9 @@ end<br>
                        c19.value=C19.value,
                        c20.value=C20.value,
                        c21.value=C21.value,
-                       c22.value=C22.value" style="display:none">
+                       c22.value=C22.value,
+                       c23.value=C23.value" style="display:none">
+<h2>10 MENU MAKER</h2>
 <input id="C1" placeholder="ENTER MENU1 NAME"><br>
 <input id="C2" placeholder="ENTER MENU2 NAME"><br>
 <input id="C3" placeholder="ENTER MENU3 NAME"><br>
@@ -1255,23 +2212,78 @@ end<br>
 <input id="C9" placeholder="ENTER MENU9 NAME"><br>
 <input id="C10" placeholder="ENTER MENU10 NAME"><br>
 <input id="C11" placeholder="ENTER EXIT11 NAME"><br>
-<textarea id="C12" placeholder="PASTE THE CODE FOR MENU1"></textarea><br>
-<textarea id="C13" placeholder="PASTE THE CODE FOR MENU2"></textarea><br>
-<textarea id="C14" placeholder="PASTE THE CODE FOR MENU3"></textarea><br>
-<textarea id="C15" placeholder="PASTE THE CODE FOR MENU4"></textarea><br>
-<textarea id="C16" placeholder="PASTE THE CODE FOR MENU5"></textarea><br>
-<textarea id="C17" placeholder="PASTE THE CODE FOR MENU6"></textarea><br>
-<textarea id="C18" placeholder="PASTE THE CODE FOR MENU7"></textarea><br>
-<textarea id="C19" placeholder="PASTE THE CODE FOR MENU8"></textarea><br>
-<textarea id="C20" placeholder="PASTE THE CODE FOR MENU9"></textarea><br>
-<textarea id="C21" placeholder="PASTE THE CODE FOR MENU10"></textarea><br>
+<textarea id="C12" placeholder="PASTE THE  FOR MENU1"></textarea><br>
+<textarea id="C13" placeholder="PASTE THE  FOR MENU2"></textarea><br>
+<textarea id="C14" placeholder="PASTE THE  FOR MENU3"></textarea><br>
+<textarea id="C15" placeholder="PASTE THE  FOR MENU4"></textarea><br>
+<textarea id="C16" placeholder="PASTE THE  FOR MENU5"></textarea><br>
+<textarea id="C17" placeholder="PASTE THE  FOR MENU6"></textarea><br>
+<textarea id="C18" placeholder="PASTE THE  FOR MENU7"></textarea><br>
+<textarea id="C19" placeholder="PASTE THE  FOR MENU8"></textarea><br>
+<textarea id="C20" placeholder="PASTE THE  FOR MENU9"></textarea><br>
+<textarea id="C21" placeholder="PASTE THE  FOR MENU10"></textarea><br>
 <input id="C22" placeholder="ENTER EXIT TOAST"><br>
-<input type="button" onclick="getElementById('p10').style.display='block',getElementById('u17').style.display='none',getElementById('u18').style.display='block';"  id="u19" value="show script">
-<input type="button" onclick="getElementById('p10').style.display='none',getElementById('u19').style.display='block',getElementById('u20').style.display='none';" id="u20" value="close script" style="display:none" ><br>
-<p id="p10" style="display:none">
+<input id="C23" placeholder="ENTER EXPIRE DATE" style="display:none">
+<br>
+<input class="neons"  onclick="
+  document.getElementById('m19').style.display='none',
+  document.getElementById('m20').style.display='block',
+  document.getElementById('kv19').style.display='block',
+  document.getElementById('kv20').style.display='block',
+  document.getElementById('KV19').style.display='none',
+  document.getElementById('KV20').style.display='none';
+  " type="button" value="MULTI CHOICE">
+<input class="neons" onclick="
+  document.getElementById('m19').style.display='block',
+  document.getElementById('m20').style.display='none',
+  document.getElementById('kv19').style.display='none',
+  document.getElementById('kv20').style.display='none',
+  document.getElementById('KV19').style.display='block',
+  document.getElementById('KV20').style.display='block';
+  " type="button" value="CIRCLE STYLE">
+<input class="neons"  onclick="
+  document.getElementById('m19').style.display='block',
+  document.getElementById('m20').style.display='none',
+  document.getElementById('kv19').style.display='block',
+  document.getElementById('kv20').style.display='block',
+  document.getElementById('KV19').style.display='none',
+  document.getElementById('KV20').style.display='none';
+  " type="button" value="OLD STYLE CHOICE"><br>
+  <input class="neons"  onclick="
+  document.getElementById('q10').style.display='block',
+  document.getElementById('C23').style.display='block',
+  document.getElementById('x10').style.display='none',
+  document.getElementById('X10').style.display='block';
+  " type="button" id="x10" value="ADD EXPIRE">
+  <input  class="neons"  onclick="
+  document.getElementById('q10').style.display='none',
+  document.getElementById('C23').style.display='none',
+  document.getElementById('x10').style.display='block',
+  document.getElementById('X10').style.display='none';
+  " type="button" id="X10" style="display:none"value="REMOVE EXPIRE">
+  <br>
+
+<input type="button" class="neons" onclick="
+document.getElementById('p10').style.display='block',
+document.getElementById('u19').style.display='none',
+document.getElementById('u20').style.display='block';"
+id="u19" value="show script">
+<input class="neons" type="button" onclick="
+getElementById('p10').style.display='none',
+getElementById('u19').style.display='block',
+getElementById('u20').style.display='none';" 
+id="u20" value="close script" style="display:none" ><br>
+<div id="p10" style="display:none">
+<span id="q10"style="display:none">
+---EXPIRE DATE MUST BE IN FORMAT OF yyyymmdd<br>
+if os.date('%Y%m%d')>= "<output id="c21"></output>" then<br>
+os.exit()<br>
+print("Error"/0)<br>
+end<br>
+</span>
 KLUMODDING = -1<br>
 function KLU()<br>
-klumenu = gg.choice({<br>
+klumenu = gg.<span id="m19">choice</span><span id="m20" style="display:none">multiChoice</span>({<br>
         "<output id="c1"></output>",<br>
         "<output id="c2"></output>",<br>
         "<output id="c3"></output>",<br>
@@ -1283,8 +2295,8 @@ klumenu = gg.choice({<br>
         "<output id="c9"></output>",<br>
         "<output id="c10"></output>",<br>
         "<output id="c11"></output>",<br>
-}, 0, "klumodding")<br>
-if klumenu == 0 then else<br>
+}, <span id="KV19">0</span><span id="kv19" style="display:none">nil</span>, "klumodding")<br>
+if klumenu == <span id="KV20">0</span><span id="kv20" style="display:none">nil</span> then else<br>
 if klumenu == 1 then klu1() end<br>
 if klumenu == 2 then klu2() end<br>
 if klumenu == 3 then klu3() end<br>
@@ -1352,70 +2364,129 @@ if KLUMODDING == 1 then<br>
 KLU(<br>
 end<br>
 end<br>
-</p>
-</form>
-</div><!---for choice-->
+<div  class="neons"  type="button" onclick="clickToCopyText('p10')">COPY CODE</div>
 </div>
+</form>
+<br></br>
+<!---completed-->
+</div>
+<!---for choice-->
+</div>
+<!--- klu script maker ended--->
+<!---tutorials--->
+<div id="set" style="display:none">
+  <h1>USEFUL APPS </h1>
+  <pre>  <pre>    FOR 32bits device
+    virtual:-<a href="https://t.me/vinothscripts/85789">VIRTUAL</a>
+    gamegurdian:<a href="https://t.me/vinothscripts/85980">gamegurdian</a>
+<p>THIS GAME GUARDIAN & VIRTUAL BY 𝐓𝐈𝐆𝐄𝐑𝐒𝐂𝐑𝐈𝐏𝐓𝐒 𝐂𝐇𝐀𝐓
+</p>
+  </pre>
+  <pre>    FOR 64bits device(no lags super fast virtual)
+    virtual:-<a href="https://www.mediafire.com/file/owb20usodluyy9c/Dual_space%252864bits%2529.apk/file
+">VIRTUAL</a>
+    gamegurdian:<a href="https://www.mediafire.com/file/vm0edbxm31bmf92/Game+guardian.apk/file
+">gamegurdian</a>
+<p>THIS GAME GUARDIAN & VIRTUAL BY @sameerAroraYT</p>
+  </pre>
+  <pre>    MY YOUTUBE CHANNEL:--<a href="https://youtube.com/channel/UCasaB0JPB9tlRl-bJ_X8gug">TEAM_KLU_MODDING_2 click here</a>
+MY TELEGRAM CHANNEL:--
+     ---[TEAM_KLU_OFFICIALS]---
+LUA DECRYPTION ALSO AVAILABLE BY [KLU_DEC]
+PUBG 
+FREE FIRE
+THERE WILL NO PAID THING IN THING GROUP 
+ALL ARE FOR FREE FREE FREE
+<a href="https://t.me/team_klu_officials">click here to open my telegram channel</a>
+  </pre>
+  </pre>
+ <h1>hill climb racing tutorial</h1>
+ <pre>   COIN HACK VALUE FINDING
+   <iframe width="600" height="380" src="https://www.youtube.com/embed/NtXRjfPVIJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+   DIAMOND HACK VALUE FINDING
+   <iframe width="600" height="380" src="https://www.youtube.com/embed/lCkp3CCiVEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   FUEL VALUE FINDING 
+   <iframe width="600" height="380" src="https://www.youtube.com/embed/xiF-CkZhsjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+   HILL CLIMB RACING 2 COIN AND DIAMOND HACK TUTORIAL
+   <iframe width="600" height="380" src="https://www.youtube.com/embed/UDLu0M3qoWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+   HILL CLIMB RACING 1 CAR UPGRADE
+   <iframe width="600" height="380" src="https://www.youtube.com/embed/JP8KUAc2mj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </pre>
+ <h1>SUBWAY SURFER TUTORIAL</h1>
+ <pre>   SUBWAY SURFER COINS AND KEY HACK TUTORIAL
+<iframe width="600" height="1200" src="https://www.youtube.com/embed/u5iVfWR6_oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <!-- hitwebcounter Code START -->
+
+<img src="https://hitwebcounter.com/counter/counter.php?page=7940097&style=0030&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>
+ </pre>
+<button class="neons" type="button" onclick="window.location.href='https://youtube.com/playlist?list=PLa7ISQLEwIYJRLyJJVXNHReBLKN9NIx74';">KLU C PROJECT TUTORIALS</button>
+</div>
+
+<!--for saving textarea  code-->
 <script>
-     let saveFile = () => {
-    	
-        // Get the data from each element on the form.
-        const code = document.getElementById('code editor');
-        
-        // This variable stores all the data.
-        let data = 
-            'YOUR SCRIPT: ' + code.value;
-      
-        // Convert the text to BLOB.
-        const textToBLOB = new Blob([data], { type: 'application/octet-stream' });
-        const sFileName = 'klu modding.lua';	   // The file to save the data.
-
-        let newLink = document.createElement("a");
-        newLink.download = sFileName;
-
-        if (window.webkitURL != null) {
-            newLink.href = window.webkitURL.createObjectURL(textToBLOB);
-        }
-        else {
-            newLink.href = window.URL.createObjectURL(textToBLOB);
-            newLink.style.display = "none";
-            document.body.appendChild(newLink);
-        }
-
-        newLink.click(); 
-    }
-  function copyText(text){
-  function selectElementText(element) {
-    if (document.selection) {
-      var range = document.body.createTextRange();
-      range.moveToElementText(element);
-      range.select();
-    } else if (window.getSelection) {
-      var range = document.createRange();
-      range.selectNode(element);
-      window.getSelection().removeAllRanges();
-      window.getSelection().addRange(range);
-    }
-  }
-  var element = document.createElement('DIV');
-  element.textContent = text;
-  document.body.appendChild(element);
-  selectElementText(element);
-  document.execCommand('copy');
-  alert ('your edited code has been copied')
-  element.remove();
+let saveFile = () => {
+// Get the data from each element on the form.
+const code = document.getElementById('code editor');
+// This variable stores all the data.
+let data = 
+'' + code.value;
+// Convert the text to BLOB.
+const textToBLOB = new Blob([data], { type: 'application/octet-stream' });
+const sFileName = 'klu modding.lua';	 
+// The file to save the data.
+let newLink = document.createElement("a");
+newLink.download = sFileName;
+if (window.webkitURL != null) {
+newLink.href = window.webkitURL.createObjectURL(textToBLOB);
 }
-
-
+else {
+newLink.href = window.URL.createObjectURL(textToBLOB);
+newLink.style.display = "none";
+document.body.appendChild(newLink);
+}
+newLink.click(); 
+}
+</script>
+<!--for copying textarea code-->
+<script>
+function copyText(text){
+function selectElementText(element) {
+if (document.selection) {
+var range = document.body.createTextRange();
+range.moveToElementText(element);
+range.select();
+} else if (window.getSelection) {
+var range = document.createRange();
+range.selectNode(element);
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(range);
+}
+}
+var element = document.createElement('pre');
+element.textContent = text;
+document.body.appendChild(element);
+selectElementText(element);
+document.execCommand('copy');
+alert ('your edited code has been copied')
+element.remove();
+}
 var txt = document.getElementById('code editor');
 var btn = document.getElementById('btn');
 btn.addEventListener('click', function(){
-  copyText(txt.value);
+copyText(txt.value);
 })
-
-window.onload = function(){ 
-alert("WELCOME TO KLU AUTO SCRIPT WRITER");
-                }
+</script>
+<script>
+  // click to copy text
+function clickToCopyText(contentToCopy) {
+ // get text within the element specified by id
+      var textContent = document.getElementById(contentToCopy).innerText;
+  // write to clipboard
+ navigator.clipboard.writeText
+                (textContent);
+        }
 </script>
 </body>
 </html>
